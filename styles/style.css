@@ -315,4 +315,24 @@ height: 39px;
     height: 39px;
 }
 
+/* estados de botones */
 
+.nav-link:hover{
+  background: #FF976B !important;
+}
+
+
+.form__button-submit {
+    opacity: 1; /* 100% */
+    transition: opacity 0.3s ease;
+}
+
+.form__button-submit:hover {
+    opacity: 0.7; /* 70% */
+}
+
+
+.footer__socialmedia-instagram:hover,
+.footer__socialmedia-facebook:hover {
+    color: #FFD6C5;
+}
