@@ -201,10 +201,13 @@ height: 39px;
     line-height: 20px;
     display: flex; 
     justify-content: center;
+    align-items: center;
     gap: 12px;
     }
 
 .form__checkbox-input{
+    width: 20px;
+    height: 20px;
     box-sizing: border-box;
 }
 
@@ -334,7 +337,7 @@ height: 39px;
 }
 
 
-.footer__socialmedia-instagram:hover,
-.footer__socialmedia-facebook:hover {
+.footer__socialmedia-instagram a:hover,
+.footer__socialmedia-facebook a:hover {
     color: #FFD6C5;
 }
